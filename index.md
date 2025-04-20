@@ -15,7 +15,7 @@ title: Accueil
     <header>
         <div class="container header-container">
             <div class="logo">
-                <img src="{{ site.baseurl }}/assets/images/logo.png" alt="Logo Association de Badminton">
+                <div class="feature-icon">🏸</div>
                 <h1>Association de Badminton</h1>
             </div>
             <nav>
