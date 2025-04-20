@@ -1,0 +1,50 @@
+email: clubbadguenange@gmail.com
+title: Le Badminton Guénangeois
+description: >- 
+  Le LBG est le principal club de badminton de la ville de Guénange et ses environs (Bertrange, Illange, Bousse, Volstroff, Metzervisse et Ay-sur-Moselle).
+  Nous accueillons les badistes principalement pour du loisir mais aussi de la compétition.
+baseurl: "" # le sous-chemin de votre site, par exemple /blog
+url: "" # le nom d'hôte et le protocole de base de votre site, par exemple http://example.com
+
+# Paramètres de construction
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+navigation:
+  - title: Accueil
+    url: /
+  - title: À propos
+    url: /a-propos/
+  - title: Événements
+    url: /evenements/
+  - title: Adhésion
+    url: /adhesion/
+  - title: Galerie
+    url: /galerie/
+  - title: Contact
+    url: /contact/
+
+# Réseaux sociaux
+social:
+  facebook: https://facebook.com/associationbadminton
+  twitter: https://twitter.com/badmintonassoc
+  instagram: https://instagram.com/associationbadminton
+  youtube: https://youtube.com/associationbadminton
+
+# Informations de contact
+contact:
+  address: 123 Avenue du Sport, Ville du Badminton, VB 12345
+  phone: (123) 456-7890
+  email: info@associationbadminton.org
+
+# Exclusions du traitement
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .github
