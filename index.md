@@ -22,9 +22,9 @@ title: Accueil
                 <ul>
                     <li><a href="{{ site.baseurl }}/">Accueil</a></li>
                     <li><a href="{{ site.baseurl }}/a-propos">À propos</a></li>
-                    <li><a href="{{ site.baseurl }}/evenements">Événements</a></li>
                     <li><a href="{{ site.baseurl }}/adhesion">Adhésion</a></li>
-                    <li><a href="{{ site.baseurl }}/galerie">Galerie</a></li>
+                    <li><a href="{{ site.baseurl }}/horaires">Horaires</a></li>
+                    <li><a href="{{ site.baseurl }}/News">News</a></li>
                     <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
                 </ul>
             </nav>
@@ -36,11 +36,13 @@ title: Accueil
         <div class="container">
             <h2>Bienvenue à Notre Association de Badminton</h2>
             <p>Rejoignez notre communauté dynamique de passionnés de badminton. Que vous soyez débutant ou expert, nous avons quelque chose pour vous !</p>
+            <p>Pour l'année 2024-2025, les cadets et juniors seront acceptés dans le créneau adulte.</p>
             <a href="{{ site.baseurl }}/adhesion" class="btn">Adhérer Maintenant</a>
+            <a href="{{ site.baseurl }}/horaires" class="btn">Horaires</a>
         </div>
     </section>
 
-    <!-- Section Caractéristiques -->
+    <!-- 
     <section class="features">
         <div class="container">
             <div class="section-title">
@@ -66,12 +68,12 @@ title: Accueil
             </div>
         </div>
     </section>
-
-    <!-- Section Événements -->
+    -->
+    <!-- Section News -->
     <section class="events">
         <div class="container">
             <div class="section-title">
-                <h3>Événements À Venir</h3>
+                <h3>Actualité du club</h3>
                 <div class="divider"></div>
             </div>
             <div class="events-list">
@@ -119,23 +121,23 @@ title: Accueil
                     <ul>
                         <li><a href="{{ site.baseurl }}/">Accueil</a></li>
                         <li><a href="{{ site.baseurl }}/a-propos">À propos</a></li>
-                        <li><a href="{{ site.baseurl }}/evenements">Événements</a></li>
                         <li><a href="{{ site.baseurl }}/adhesion">Adhésion</a></li>
-                        <li><a href="{{ site.baseurl }}/galerie">Galerie</a></li>
+                        <li><a href="{{ site.baseurl }}/horaires">Horaires</a></li>
+                        <li><a href="{{ site.baseurl }}/News">News</a></li>
                         <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h4>Contactez-nous</h4>
-                    <p>123 Avenue du Sport<br>
-                    Ville du Badminton, VB 12345<br>
-                    info@associationbadminton.org<br>
-                    (123) 456-7890</p>
+                    <p>1, rue Mozart<br>
+                    57310 Guénange<br>
+                    clubbadguenange@gmail.com<br>
+                    Tel: 07 67 97 24 61</p>
                 </div>
                 <div class="footer-column">
                     <h4>Suivez-nous</h4>
                     <div class="social-icons">
-                        <a href="#" title="Facebook">FB</a>
+                        <a href="https://fb.me/lbg57" title="Facebook">FB</a>
                         <a href="#" title="Twitter">TW</a>
                         <a href="#" title="Instagram">IG</a>
                         <a href="#" title="YouTube">YT</a>
@@ -143,7 +145,7 @@ title: Accueil
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Association de Badminton. Tous droits réservés.</p>
+                <p>&copy; 2025 LBG57. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
